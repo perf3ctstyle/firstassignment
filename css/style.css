@@ -1,37 +1,37 @@
 
 * {
     box-sizing: border-box;
-  }
-  
-  .row {
-    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
   h1 {
-    margin-bottom: 15px;
+    margin: 50px;
     text-align: center;
   }
   
-  div.col-desktop {
+  .col-desktop {
       position: relative;
       background-color: #585858;
       border: 1px solid black;
+      margin: 10px;
   }
   
-  .title {
+  h2 {
       float: right;
       position: relative;
-      margin: 0;
-      top: 0;
-      right: 0;
+      border: 1px solid black;
+      padding: 5px;
   }
   
   #by {
       background-color: #FF0000;
+      color: #FFFFFF;
   }
   
   #ru {
       background-color: #3300FF;
+      color: #FFFFFF;
   }
   
   #ua {
@@ -41,16 +41,16 @@
   
   p {
     font-family: Arial, Helvetica;
-    color: white;
+    color: #FFFFFF;
     clear: right;
-    padding: 10px;
+    padding: 20px;
   }
   
   /********** Desktop devices only **********/
   @media (min-width: 992px) {
     .col-desktop {
       float: left;
-      width: 33.33%;
+      width: 31.3%;
     }
   }
   
@@ -58,11 +58,12 @@
   @media (min-width: 768px) and (max-width: 991px) {
     .col-tablet {
       float: left;
-      width: 50%;
+      width: 46%;
+      margin-left: 15px;
     }
   
     #ukraine_div {
-        width: 100%;
+        width: 95%;
     }
     
   }
@@ -71,7 +72,8 @@
   @media (max-width: 767px) {
       .col-mobile {
       float: left;
-      width: 100%;
+      width: 90%;
+      margin-left: 35px;
       }
   }
   
